@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (max-width: 768px) {
+  .wrapper {
+    margin   : 0 auto;
+    max-width: 768px;
+  }
+
+  header {
+    max-width: 728px;
+    height   : 110px;
+  }
+
+  .header_logo {
+    margin-top: 45px;
+  }
+
+  .header_nav {
+    display: none;
+  }
+
+  .menu {
+    display    : block;
+    width      : 32px;
+    height     : 18px;
+    margin-top : 45px;
+    margin-left: auto;
+  }
+
+  .welcome {
+    margin    : 0 auto;
+    background: none;
+    height    : 861px;
+  }
+
+  .h_welcome {
+    padding-top: 0px;
+    height     : 150px;
+  }
+
+  .section_title_dark {
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 40px;
+    line-height   : 60px;
+    text-align    : center;
+    letter-spacing: 5px;
+  }
+
+  .welcome_description {
+    margin        : 0;
+    margin-top    : -5px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 300;
+    font-size     : 20px;
+    line-height   : 23px;
+    text-align    : center;
+    letter-spacing: 2px;
+  }
+
+  button.welcome_button {
+    display: none;
+  }
+
+  .mona_img {
+    display    : block;
+    max-width  : 728px;
+    height     : 546px;
+    margin-top : 50px;
+    margin-left: 20px;
+  }
+
+  .slider_list {
+    margin-top      : 0px;
+    margin-left     : 0;
+    background-color: #030303;
+  }
+
+  .welcome_slider_list {
+    width : 401px;
+    height: 40px;
+  }
+
+  .first_counter {
+    margin-left : 35px;
+    margin-right: 10px;
+  }
+
+  .slide_to_left {
+    margin-left: 20px;
+  }
+
+  .visiting {
+    height          : 1225px;
+    margin-top      : 0px;
+    background-color: #FFFFFF;
+  }
+
+  .visitng_wrapper {
+    margin   : 0 20px;
+    max-width: 768px;
+  }
+
+  .h_visiting {
+    padding-top: 40px;
+    font-size  : 40px;
+    line-height: 60px;
+  }
+
+  .hr_visiting {
+    margin-top: 20px;
+  }
+
+  .places {
+    margin-top           : 40px;
+    margin-left          : 56px;
+    display              : grid;
+    grid-template-rows   : 301px 301px 301px;
+    grid-template-columns: 280px 280px;
+    grid-row-gap         : 40px;
+    grid-column-gap      : 56px;
+  }
+
+  h3 {
+    font-size     : 22px;
+    line-height   : 24px;
+    letter-spacing: 3px;
+  }
+
+  .smaller {
+    font-size  : 22px;
+    line-height: 24px;
+
+  }
+
+  .hr_place {
+    float        : left;
+    height       : 2px;
+    margin       : 0;
+    margin-top   : 10px;
+    width        : 150px;
+    background   : #710707;
+    border-radius: 0px;
+    transition   : 1s;
+  }
+
+  .virtual_tour {
+    font-size: 18px;
+  }
+
+  .explore {
+    display   : block;
+    margin-top: 0px;
+    max-width : 768px;
+    height    : 870px;
+  }
+
+  .h_explore {
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  .hr_explore {
+    height       : 3px;
+    margin-top   : 20px;
+    width        : 728px;
+    background   : #710707;
+    border-radius: 0px;
+    border       : none;
+  }
+
+  .picture_explore_description {
+    display   : none;
+    margin-top: 0px;
+    width     : 0px;
+  }
+
+  .history_par {
+    display   : none;
+    margin-top: 0px;
+    width     : 0px;
+  }
+
+  .second_par {
+    display   : none;
+    margin-top: 0px;
+    width     : 0px;
+  }
+
+  .change_color {
+    color: #CAAA7D;
+  }
+
+  .explore_magic {
+    width      : 728px;
+    height     : 705px;
+    margin-left: 0px;
+  }
+
+  .compare_images img {
+    display: block;
+    width  : 728px;
+    height : 705px;
+  }
+
+  .explore_slider {
+    position: absolute;
+    z-index : 9;
+    cursor  : ew-resize;
+    width   : 39px;
+    height: 705px;
+  }
+
+  .journey {
+    height: 837px;
+  }
+
+  .journey_wrapper {
+    margin   : 0 20px;
+    max-width: 768px;
+  }
+
+  .h_journey {
+    margin-top : 0;
+    padding-top: 40px;
+    font-size  : 40px;
+    line-height: 60px;
+  }
+
+  .main_frame {
+    margin-top: 20px;
+    width     : 728px;
+    height    : 386px;
+  }
+
+  .frames {
+    margin-top: 15px;
+  }
+
+  .third_frame {
+    display: none;
+  }
+
+  .first_frame {
+    margin-right: 20px;
+  }
+
+  .second_frame {
+    margin-right: 0;
+  }
+
+  .first_frame,
+  .second_frame {
+    width : 354px;
+    height: 199px;
+  }
+
+  .frames_sliders {
+    margin-top: 20px;
+  }
+
+  .gallery {
+    margin: 0;
+    width : 768px;
+    height: 1220px;
+  }
+
+  .h_gallery {
+    margin-left   : 20px;
+    margin-top    : 40px;
+    font-size     : 40px;
+    line-height   : 60px;
+    letter-spacing: 5px;
+  }
+
+  .grid_gallery {
+    margin-top: 40px;
+  }
+
+  .column3 {
+    display: none;
+  }
+
+  .grid_gallery .column1 {
+    margin-left: 20px;
+    margin-top : 10px;
+  }
+
+  .grid_gallery div {
+    margin-right: 24px;
+  }
+
+  .column1 img,
+  .column2 img,
+  .column3 img {
+    margin-bottom: 20px;
+    max-width    : 100%;
+    width        : 456px;
+  }
+
+  .grid_gallery:after {
+    content   : "";
+    position  : absolute;
+    z-index   : 1;
+    bottom    : 0;
+    left      : 0;
+    max-width : 98%;
+    height    : 760px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 90%);
+  }
+
+  .last_one {
+    display: none;
+  }
+
+  .tickets {
+    height          : 633px;
+    margin-top      : 0px;
+    background-color: #FFFFFF;
+  }
+
+  .tickets_wrapper {
+    max-width: 768px;
+    margin   : 0 20px;
+  }
+
+  .h_tickets {
+    padding-top: 40px;
+    font-size  : 40px;
+    line-height: 60px;
+  }
+
+  .buy_tickets {
+    margin-top: 40px;
+  }
+
+  .ticket_art {
+    width : 444px;
+    height: 340px;
+  }
+
+  .amount_block {
+    margin-left: 60px;
+  }
+
+  .label {
+    margin-top   : 40px;
+    margin-bottom: -10px;
+  }
+
+  .label2 {
+    margin       : 0;
+    margin-top   : -5px;
+    margin-bottom: 10px;
+  }
+
+  .total_text {
+    margin-top: -10px;
+  }
+
+  .buy_now {
+    margin-top: -10px;
+  }
+
+  .parallax {
+    max-width: 768px;
+    height   : 300px;
+  }
+
+  .contacts {
+    height: 925px;
+  }
+
+  .contacts_wrapper {
+    max-width: 768px;
+  }
+
+  .h_contacts {
+    margin-left: 20px;
+    padding-top: 40px;
+    font-size  : 40px;
+    line-height: 60px;
+  }
+
+  .hr_contacts {
+    margin-left: 20px;
+    width      : 728px;
+  }
+
+  .contacts_map {
+    display: block;
+  }
+
+  .contacts_info {
+    margin-left : 20px;
+    margin-top  : 40px;
+    margin-right: 25px;
+  }
+
+  .head_info {
+    width      : 170px;
+    font-size  : 20px;
+    line-height: 23px;
+  }
+
+  .address_info {
+    width      : 265px;
+    margin-top : 40px;
+    font-size  : 18px;
+    line-height: 21px;
+  }
+
+  .phone_info {
+    margin-top : 15px;
+    font-size  : 18px;
+    line-height: 21px;
+  }
+
+  .mail_info {
+    margin-top : 15px;
+    font-size  : 18px;
+    line-height: 21px;
+  }
+
+  .map {
+    width      : 728px;
+    height     : 476px;
+    margin-left: 20px;
+    margin-top : 40px;
+  }
+
+  footer {
+    height   : 411px;
+    max-width: 768px;
+  }
+
+  .first_level {
+    flex-wrap: wrap;
+    margin   : 0 20px;
+    display  : flex;
+  }
+
+  .footer_logo {
+    display   : flex;
+    margin-top: 50px;
+  }
+
+  .footer_logo_text {
+    margin-top : 2px;
+    margin-left: 25px;
+  }
+
+  .footer_lists {
+    margin-top : -8px;
+    margin-left: 60px;
+  }
+
+  .first_part_list {
+    margin        : 0;
+    margin-top    : 65px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 200;
+    font-size     : 18px;
+    line-height   : 21px;
+    letter-spacing: 2px;
+  }
+
+  .second_part_list {
+    margin        : 0;
+    margin-top    : 65px;
+    margin-left   : 140px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 200;
+    font-size     : 18px;
+    line-height   : 21px;
+    letter-spacing: 2px;
+  }
+
+  .links_list {
+    display    : inline;
+    margin-left: 290px;
+    margin-top : 25px;
+  }
+
+  .links_list li {
+    display: inline;
+    margin : 10px;
+  }
+
+  .hr_footer {
+    margin-top: 35px;
+    height    : 1px;
+    width     : 728px;
+  }
+
+  .second_level {
+    margin-top : 40px;
+    margin-left: 20px;
+  }
+
+  .trss {
+    font-size  : 22px;
+    line-height: 22px;
+    margin-left: 130px;
+  }
+
+  .nickname {
+    margin-left: 105px;
+  }
+}

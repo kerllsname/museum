@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (max-width: 1024px) {
+
+  .wrapper {
+    margin   : 0 auto;
+    max-width: 1024px;
+  }
+
+  header {
+    max-width: 984px;
+    height   : 130px;
+  }
+
+  .header_logo {
+    margin-top: 49px;
+  }
+
+  .header_nav {
+    display: none;
+  }
+
+  .menu {
+    display    : block;
+    width      : 32px;
+    height     : 18px;
+    margin-top : 56px;
+    margin-left: auto;
+  }
+
+  .welcome {
+    max-width          : 1024px;
+    height             : 585px;
+    margin             : 0 20px;
+    background         : url('../assets/welcome/liza.png') no-repeat;
+    background-position: top right;
+    background-size    : 70%;
+  }
+
+  .h_welcome {
+    padding-top: 50px;
+  }
+
+  .section_title_dark {
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 50px;
+    line-height   : 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color         : #FFFFFF;
+  }
+
+  .welcome_description {
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 300;
+    font-size     : 24px;
+    line-height   : 28px;
+    letter-spacing: 2px;
+    color         : #FFFFFF;
+  }
+
+  button.welcome_button {
+    width         : 300px;
+    height        : 60px;
+    margin-top    : 25px;
+    background    : #710707;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 300;
+    font-size     : 20px;
+    line-height   : 23px;
+    letter-spacing: 2px;
+    color         : #FFFFFF;
+  }
+
+  .slider_list {
+    width      : 700px;
+    height     : 120px;
+    margin-top : 72px;
+    margin-left: auto;
+  }
+
+  .welcome_slider_list {
+    padding       : 0;
+    margin        : 0;
+    margin-left   : 150px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 20px;
+    line-height   : 40px;
+    display       : flex;
+    align-items   : center;
+    text-transform: uppercase;
+    color         : #FFFFFF;
+  }
+
+  .first_counter {
+    margin-left : 74px;
+    margin-right: 10px;
+  }
+
+  .counter {
+    margin-left : 10px;
+    margin-right: 45px;
+  }
+
+  .dot {
+    margin-top  : 40px;
+    margin-right: 25px;
+    cursor      : pointer;
+  }
+
+  .dot svg {
+    width : 12px;
+    height: 12px;
+  }
+
+  .arrows {
+    cursor    : pointer;
+    margin-top: 35px;
+  }
+
+  .slide_to_left {
+    margin-left: 25px;
+  }
+
+  .slide_to_right {
+    margin-left: 20px;
+  }
+
+  .visiting {
+    height: 1433px;
+  }
+
+  .visitng_wrapper {
+    margin   : 0 20px;
+    max-width: 1024px;
+  }
+
+  .h_visiting {
+    padding-top   : 60px;
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 50px;
+    line-height   : 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color         : #9D8665;
+  }
+
+  .hr_visiting {
+    margin-top: 20px;
+  }
+
+  .places {
+    margin-top           : 60px;
+    margin-left          : 108px;
+    display              : grid;
+    grid-template-rows   : 345px 345px 345px;
+    grid-template-columns: 330px 330px;
+    grid-row-gap         : 60px;
+    grid-column-gap      : 108px;
+  }
+
+  .place img {
+    width: 100%;
+  }
+
+  h3 {
+    margin        : 0;
+    padding       : 0;
+    margin-top    : 20px;
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 28px;
+    line-height   : 31px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color         : #000000;
+  }
+
+  .smaller {
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 28px;
+    line-height   : 31px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color         : #000000;
+  }
+
+  .hr_place {
+    float        : left;
+    height       : 2px;
+    margin       : 0;
+    margin-top   : 10px;
+    width        : 150px;
+    background   : #710707;
+    border-radius: 0px;
+    transition   : 1s;
+  }
+
+  .virtual_tour {
+    margin     : 0;
+    margin-top : 22px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 200;
+    font-size  : 20px;
+    line-height: 23px;
+    color      : #000000;
+  }
+
+  .gspv {
+    margin     : 0;
+    margin-top : 10px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 200;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : #000000;
+  }
+
+  .explore {
+    display   : block;
+    margin    : 0 20px;
+    max-width : 1024px;
+    height    : 1020px;
+    margin-top: 55px;
+  }
+
+  .h_explore {
+    margin-top: 0px;
+  }
+
+  .hr_explore {
+    width        : 984px;
+    height       : 3px;
+    margin-top   : 10px;
+    background   : #710707;
+    border-radius: 0px;
+    border       : none;
+  }
+
+  .picture_explore_description {
+    margin-top: 75px;
+    width     : 100%;
+  }
+
+  .history_par {
+    margin-bottom: 0;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 300;
+    font-size    : 20px;
+    line-height  : 38px;
+    color        : #FFFFFF;
+  }
+
+  .second_par {
+    margin-bottom: 0;
+    margin-top   : 0;
+    padding      : 0;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 300;
+    font-size    : 20px;
+    line-height  : 35px;
+    color        : #FFFFFF;
+  }
+
+  .history_par_none {
+    display: none;
+  }
+
+  .explore_magic {
+    margin    : 0 auto;
+    margin-top: 62px;
+  }
+
+  .compare_images {
+    position: absolute;
+    width   : auto;
+    height  : auto;
+    overflow: hidden;
+  }
+  
+  .compare_images img {
+    display: block;
+    width : 720px;
+    height: 700px;
+  }
+  
+  .explore_slider {
+    position: absolute;
+    z-index: 9;
+    cursor: ew-resize;
+    width: 39px;
+    height: 700px;
+  }
+
+  .journey {
+    height          : 1000px;
+    margin-top      : 0px;
+    background-color: #FFFFFF;
+  }
+
+  .journey_wrapper {
+    margin   : 0 20px;
+    max-width: 1024px;
+  }
+
+  .journey_h_description {
+    display: block;
+  }
+
+  .h_journey {
+    padding-top   : 60px;
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 50px;
+    line-height   : 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color         : #9D8665;
+  }
+
+  .journey_description {
+    display: none;
+  }
+
+  .main_frame {
+    margin-top: 40px;
+    width     : 984px;
+    height    : 504px;
+  }
+
+  .first_frame,
+  .second_frame {
+    margin-right: 41px;
+  }
+
+  .first_frame,
+  .second_frame,
+  .third_frame {
+    width : 300px;
+    height: 170px;
+  }
+
+  .gallery {
+    margin-left: 20px;
+    max-width  : 1004px;
+    height     : 1460px;
+    overflow   : hidden;
+  }
+
+  .h_gallery {
+    margin-top    : 60px;
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 50px;
+    line-height   : 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color         : #FFFFFF;
+  }
+
+  .grid_gallery {
+    display   : flex;
+    position  : relative;
+    margin-top: 60px;
+  }
+
+  .grid_gallery div:first-child,
+  .grid_gallery div:last-child {
+    margin-top: 50px;
+  }
+
+  .grid_gallery div {
+    margin-right: 36px;
+  }
+
+
+  .column1 img,
+  .column2 img,
+  .column3 img {
+    margin-bottom: 20px;
+    max-width    : 100%;
+    width        : 304px;
+  }
+
+  .grid_gallery:after {
+    content   : "";
+    position  : absolute;
+    z-index   : 1;
+    bottom    : 0;
+    left      : 0;
+    max-width : 98%;
+    height    : 360px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 90%);
+  }
+
+  .tickets {
+    height          : 719px;
+    margin-top      : 0px;
+    background-color: #FFFFFF;
+  }
+
+  .tickets_wrapper {
+    max-width: 1024px;
+    margin   : 0 20px;
+  }
+
+  .h_tickets {
+    padding-top   : 60px;
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 50px;
+    line-height   : 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color         : #9D8665;
+  }
+
+  .hr_tickets {
+    height       : 3px;
+    margin-top   : 20px;
+    background   : #710707;
+    border-radius: 0px;
+    border       : 0;
+  }
+
+  .buy_tickets {
+    margin-top: 60px;
+  }
+
+  .ticket_art {
+    width     : 700px;
+    height    : 440px;
+    object-fit: cover;
+  }
+
+  .ticket_type {
+    display: none;
+  }
+
+  .amount_block {
+    text-align : unset;
+    margin-left: 80px;
+  }
+
+  .amount_text {
+    margin       : 0;
+    margin-bottom: 28px;
+    text-align   : left;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : bold;
+    font-size    : 28px;
+    line-height  : 33px;
+    color        : #000000;
+  }
+
+  .label {
+    margin       : 0;
+    margin-top   : 5px;
+    margin-bottom: -5px;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 300;
+    font-size    : 22px;
+    line-height  : 26px;
+    color        : #000000;
+  }
+
+  .label2 {
+    margin       : 0;
+    margin-bottom: 5px;
+    margin-right : 47px;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 300;
+    font-size    : 22px;
+    line-height  : 26px;
+    color        : #000000;
+  }
+
+  .input_number {
+    margin-left  : auto;
+    width        : 175px;
+    height       : 50px;
+    margin-bottom: 30px;
+    border       : 3px solid #000000;
+    box-sizing   : border-box;
+    border-radius: 0px;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 300;
+    font-size    : 22px;
+    color        : #000000;
+  }
+
+  .input_plus {
+    margin-left: 10px;
+  }
+
+  .input_number_buttons {
+    border     : none;
+    outline    : none;
+    background : transparent;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 32px;
+    line-height: 37px;
+    color      : #000000;
+    cursor     : pointer;
+  }
+
+  .total_text {
+    margin-top    : -20px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : bold;
+    font-size     : 28px;
+    line-height   : 33px;
+    letter-spacing: 1.65px;
+    color         : #000000;
+  }
+
+  .euro {
+    margin-left: 7px;
+  }
+
+  .buy_now {
+    margin-top    : 22px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 300;
+    font-size     : 22px;
+    line-height   : 26px;
+    align-items   : center;
+    text-align    : center;
+    letter-spacing: 2px;
+    color         : #FFFFFF;
+    width         : 175px;
+    height        : 50px;
+    background    : #000000;
+    border-radius : 2px;
+    transition    : 1s;
+  }
+
+  .parallax {
+    width                : 100%;
+    max-width            : 1024px;
+    height               : 400px;
+    background           : url('../assets/parallax/parallax.jpg');
+    background-size      : cover;
+    background-attachment: fixed;
+    background-position  : center;
+  }
+
+  .contacts {
+    height          : 732px;
+    margin-top      : 0px;
+    margin          : 0;
+    background-color: #FFFFFF;
+  }
+
+  .contacts_wrapper {
+    max-width: 1024px;
+    width    : 1024px;
+  }
+
+  .h_contacts {
+    margin-left   : 20px;
+    padding-top   : 60px;
+    font-family   : Forum;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 50px;
+    line-height   : 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color         : #9D8665;
+  }
+
+  .hr_contacts {
+
+    margin-left  : -1px;
+    padding      : 0;
+    width        : 984px;
+    margin-top   : 20px;
+    height       : 3px;
+    background   : #710707;
+    border-radius: 0px;
+    border       : 0;
+  }
+
+  .contacts_info {
+    margin-left : 20px;
+    margin-top  : 50px;
+    margin-right: 25px;
+  }
+
+  .head_info {
+    width      : 200px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 24px;
+    line-height: 28px;
+    color      : #000000;
+  }
+
+  .address_info {
+    width      : 265px;
+    margin-top : 35px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 300;
+    font-size  : 20px;
+    line-height: 23px;
+    color      : #000000;
+  }
+
+  .phone_info {
+    margin-top : 15px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 300;
+    font-size  : 20px;
+    line-height: 23px;
+    display    : flex;
+    align-items: flex-end;
+    color      : #000000;
+  }
+
+  .mail_info {
+    margin-top : 15px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 300;
+    font-size  : 20px;
+    line-height: 23px;
+    color      : #000000;
+  }
+
+  .map {
+    width     : 694px;
+    height    : 454px;
+    margin-top: 50px;
+  }
+
+  footer {
+    height   : 368px;
+    max-width: 1024px;
+    width    : 1024px;
+  }
+
+  .first_level {
+    margin : 0 20px;
+    display: flex;
+  }
+
+  .footer_logo {
+    display   : flex;
+    margin-top: 60px;
+  }
+
+  .footer_logo_text {
+    margin-top : 2px;
+    margin-left: 25px;
+  }
+
+  .footer_lists {
+    margin-left: 0px;
+  }
+
+  .first_part_list {
+    margin    : 0;
+    margin-top: 65px;
+  }
+
+  .second_part_list {
+    margin     : 0;
+    margin-top : 65px;
+    margin-left: 80px;
+  }
+
+  .links_list {
+    margin-left: 82px;
+    margin-top : 145px;
+  }
+
+  .links_list li {
+    display: inline;
+    margin : 10px;
+  }
+
+  .hr_footer {
+    margin-top: 25px;
+    height    : 3px;
+    width     : 944px;
+  }
+
+  .second_level {
+    margin-left: 20px;
+  }
+
+  .trss {
+    margin-left: 260px;
+  }
+
+  .nickname {
+    margin-left: 215px;
+  }
+}

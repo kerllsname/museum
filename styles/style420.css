@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (max-width: 420px) {
+  .wrapper {
+    margin   : 0 auto;
+    max-width: 420px;
+  }
+
+  header {
+    margin   : 0 20px;
+    max-width: 380px;
+    height   : 90px;
+  }
+
+  .header_logo {
+    margin-top: 35px;
+  }
+
+  .header_logo_icon img {
+    width : 29px;
+    height: 16px;
+  }
+
+  .header_logo_text {
+    font-size  : 16px;
+    line-height: 18px;
+  }
+
+  .header_nav {
+    display: none;
+  }
+
+  .menu {
+    display    : block;
+    width      : 32px;
+    height     : 18px;
+    margin-top : 35px;
+    margin-left: auto;
+  }
+
+  .welcome {
+    max-width : 380px;
+    margin    : 0 auto;
+    background: none;
+    height    : 540px;
+  }
+
+  .h_welcome {
+    padding-top: 0px;
+    margin     : 5px;
+    height     : 80px;
+  }
+
+  .section_title_dark {
+    font-size  : 28px;
+    line-height: 40px;
+  }
+
+  .welcome_description {
+    margin     : 0;
+    margin-top : 25px;
+    font-size  : 16px;
+    line-height: 19px;
+  }
+
+  button.welcome_button {
+    display: none;
+  }
+
+  .mona_img {
+    display    : block;
+    width      : 380px;
+    height     : 285px;
+    margin-top : 50px;
+    margin-left: 0;
+  }
+
+  .slider_list {
+    width           : 230px;
+    height          : 40px;
+    margin-top      : 0px;
+    margin-left     : 0;
+    background-color: #030303;
+  }
+
+  .welcome_slider_list {
+    margin-left: 55px;
+    width      : 230px;
+    height     : 40px;
+  }
+
+  .numbers {
+    margin-top : 40px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 40px;
+  }
+
+  .first_counter {
+    margin-left : 20px;
+    margin-right: 5px;
+  }
+
+  .counter {
+    margin-left : 5px;
+    margin-right: 25px;
+  }
+
+  .dot {
+    margin-top  : 35px;
+    margin-right: 10px;
+  }
+
+  .dot svg {
+    width : 7px;
+    height: 7px;
+  }
+
+  .arrows img {
+    width : 20px;
+    height: 8px;
+  }
+
+  .slide_to_left {
+    margin-left: 15px;
+  }
+
+  .slide_to_right {
+    margin-left: 15px;
+  }
+
+  .visiting {
+    height: 2153px;
+  }
+
+  .visitng_wrapper {
+    margin   : 0 20px;
+    max-width: 380px;
+  }
+
+  .h_visiting {
+    padding-top: 40px;
+    font-size  : 28px;
+    line-height: 40px;
+  }
+
+  .places {
+    margin-top           : 40px;
+    margin-left          : 50px;
+    display              : grid;
+    grid-template-rows   : 295px;
+    grid-template-columns: 280px;
+    grid-row-gap         : 40px;
+  }
+
+  h3 {
+    font-size     : 18px;
+    line-height   : 20px;
+    letter-spacing: 5px;
+  }
+
+  .smaller {
+    font-size     : 18px;
+    line-height   : 20px;
+    letter-spacing: 5px;
+  }
+
+  .hr_place {
+    float        : left;
+    height       : 2px;
+    margin       : 0;
+    margin-top   : 8px;
+    width        : 150px;
+    background   : #710707;
+    border-radius: 0px;
+    transition   : 1s;
+  }
+
+  .virtual_tour {
+    font-size  : 16px;
+    line-height: 19px;
+  }
+
+  .explore {
+    display   : block;
+    margin    : 0 auto;
+    margin-top: 0px;
+    max-width : 380px;
+    height    : 510px;
+  }
+
+  .hr_explore {
+    height       : 3px;
+    margin-top   : 20px;
+    width        : 380px;
+    background   : #710707;
+    border-radius: 0px;
+    border       : none;
+  }
+
+  .explore_magic {
+    width      : 380px;
+    height     : 368px;
+    margin-left: 0px;
+  }
+
+  .compare_images img {
+    display: block;
+    width  : 380px;
+    height : 368px;
+  }
+
+  .explore_slider {
+    position: absolute;
+    z-index : 9;
+    cursor  : ew-resize;
+    width   : 20px;
+    height  : 368px;
+  }
+
+  .explore_slider img {
+    height  : 368px;
+  }
+
+  .journey {
+    height: 550px;
+  }
+
+  .journey_wrapper {
+    margin   : 0 auto;
+    max-width: 380px;
+  }
+
+  .h_journey {
+    padding-top: 37px;
+    font-size  : 28px;
+    line-height: 40px;
+  }
+
+  .journey_description {
+    display: none;
+  }
+
+  .main_frame {
+    margin-top: 20px;
+    width     : 380px;
+    height    : 226px;
+  }
+
+  .first_frame,
+  .second_frame {
+    margin-top: 20px;
+    width     : 180px;
+    height    : 101px;
+  }
+
+  .first_frame {
+    margin-right: 20px;
+  }
+
+  .second_frame {
+    margin-right: 0;
+  }
+
+  .frames_sliders {
+    margin    : 0 auto;
+    margin-top: 35px;
+    text-align: center;
+  }
+
+  .frames_sliders_list {
+    margin : 0;
+    padding: 0;
+  }
+
+  .frames_sliders_list img {
+    width : 8px;
+    height: 8px;
+  }
+
+  .frames_sliders_list li {
+    display: inline;
+    margin : 8px;
+  }
+
+  .gallery {
+    margin: 0;
+    width : 420px;
+    height: 757px;
+  }
+
+  .h_gallery {
+    font-size  : 28px;
+    line-height: 40px;
+  }
+
+  .grid_gallery {
+    margin-top: 40px;
+  }
+
+  .column3 {
+    display: none;
+  }
+
+  .grid_gallery .column1 {
+    margin-left: 20px;
+    margin-top : 10px;
+  }
+
+  .grid_gallery div {
+    margin-right: 24px;
+  }
+
+  .column1 img,
+  .column2 img,
+  .column3 img {
+    margin-bottom: 20px;
+    width        : 178px;
+  }
+
+  .grid_gallery:after {
+    height: 460px;
+  }
+
+  .tickets {
+    height          : 760px;
+    margin-top      : 0px;
+    background-color: #FFFFFF;
+  }
+
+  .tickets_wrapper {
+    max-width: 380px;
+    margin   : 0 20px;
+  }
+
+  .h_tickets {
+    padding-top: 40px;
+    font-size  : 28px;
+    line-height: 40px;
+  }
+
+  .buy_tickets {
+    display   : block;
+    margin-top: 40px;
+  }
+
+  .ticket_art {
+    width : 380px;
+    height: 160px;
+  }
+
+  .amount_block {
+    margin    : 0 auto;
+    margin-top: 37px;
+    width     : 175px;
+    height    : 286px;
+  }
+
+  .amount_text {
+    margin       : 0;
+    margin-bottom: 28px;
+    font-size    : 16px;
+    line-height  : 19px;
+    text-align   : center;
+  }
+
+  .label {
+    margin       : 0;
+    margin-top   : -8px;
+    margin-bottom: -5px;
+    font-size    : 16px;
+    line-height  : 19px;
+  }
+
+  .label2 {
+    margin       : 0;
+    margin-top   : -8px;
+    margin-bottom: 15px;
+    margin-right : 47px;
+    font-size    : 16px;
+    line-height  : 19px;
+  }
+
+  .total_text {
+    margin-top    : -8px;
+    letter-spacing: 0.4px;
+    font-size     : 16px;
+    line-height   : 19px;
+    text-align    : center;
+  }
+
+  .euro {
+    margin-left: 2px;
+    font-size  : 16px;
+    line-height: 19px;
+  }
+
+  .buy_now {
+    margin-top : 8px;
+    font-weight: 300;
+    font-size  : 16px;
+    line-height: 0px;
+  }
+
+  .parallax {
+    max-width            : 420px;
+    height               : 300px;
+    width                : 100%;
+    background-position  : calc(60%) bottom;
+    background-size      : cover;
+    background-attachment: fixed;
+    background-repeat    : no-repeat;
+  }
+
+  .contacts {
+    height: 635px;
+  }
+
+  .contacts_wrapper {
+    margin   : 0 20px;
+    max-width: 380px;
+  }
+
+  .h_contacts {
+    margin-left: 0px;
+    padding-top: 40px;
+    font-size  : 28px;
+    line-height: 40px;
+  }
+
+  .hr_contacts {
+    margin-left: 0px;
+    width      : 100%;
+  }
+
+  .contacts_map {
+    display: block;
+  }
+
+  .contacts_info {
+    margin-left : 0px;
+    margin-top  : 40px;
+    margin-right: 25px;
+  }
+
+  .head_info {
+    width      : 130px;
+    font-size  : 16px;
+    line-height: 19px;
+  }
+
+  .address_info {
+    width      : 265px;
+    margin-top : 40px;
+    font-size  : 16px;
+    line-height: 19px;
+  }
+
+  .phone_info {
+    margin-top : 15px;
+    font-size  : 16px;
+    line-height: 19px;
+  }
+
+  .mail_info {
+    margin-top : 15px;
+    font-size  : 16px;
+    line-height: 19px;
+  }
+
+  .map {
+    width      : 380px;
+    height     : 248px;
+    margin-left: 0px;
+    margin-top : 40px;
+  }
+
+  footer {
+    height   : 400px;
+    max-width: 380px;
+    padding  : 0 20px;
+  }
+
+  .first_level {
+    margin   : 0;
+    flex-wrap: wrap;
+    display  : flex;
+  }
+
+  .footer_logo {
+    margin-left: 0px;
+    display    : flex;
+    margin-top : 40px;
+  }
+
+  .footer_logo_icon img {
+    width : 29px;
+    height: 16px;
+  }
+
+  .footer_logo_text {
+    margin-top : 2px;
+    margin-left: 20px;
+    font-size  : 16px;
+    line-height: 18px;
+  }
+
+  .footer_lists {
+    margin-top : -20px;
+    margin-left: 0px;
+  }
+
+  .first_part_list {
+    margin        : 0;
+    padding-left  : 0px;
+    margin-top    : 65px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 200;
+    font-size     : 18px;
+    line-height   : 21px;
+    letter-spacing: 2px;
+  }
+
+  .links_list {
+    display: inline;
+    margin : 0 auto;
+  }
+
+  .links_list li {
+    display: inline;
+    margin : 1px;
+  }
+
+  .hr_footer {
+    margin-top: 35px;
+    height    : 1px;
+    width     : 380px;
+  }
+
+  .second_level {
+    margin-top : 20px;
+    margin-left: 20px;
+  }
+
+  .trss {
+    display    : none;
+    font-size  : 22px;
+    line-height: 22px;
+    margin-left: 130px;
+  }
+
+  .nickname {
+    margin-left: auto;
+  }
+}
