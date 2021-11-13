@@ -11,12 +11,3 @@ initializeCompare();
 initializeVideo();
 initializeSlider();
 initializeMap();
-
-// tns({
-//   "container": "#nested",
-//   "items": 1,
-//   "loop": false,
-//   "nested": "outer",
-//   "swipeAngle": false,
-//   "speed": 400
-// });
